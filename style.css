@@ -43,17 +43,30 @@ sub {
     width: 300px;
 }
 
-.scroll {
+.scroll1 {
     height: 900px;
-    width: 140px;
+    width: 190px;
     overflow: auto;
     padding: 0;
     margin: 0;
 }
 
-.scroll::-webkit-scrollbar { 
+.scroll2 {
+    height: 900px;
+    width: 100px;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+.scroll1::-webkit-scrollbar {
     display: none;
-  }
+}
+
+.scroll2::-webkit-scrollbar {
+    display: none;
+}
 
 .sub2 {
 
