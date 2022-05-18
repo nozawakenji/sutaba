@@ -1,9 +1,12 @@
 .retu {
-    width: 1500px;
+    width: 1500px; 
     height: 800px;
     display: flex;
     flex-direction: row;
     border: 10px blue;
+    /* width: 50%; /* リキッド */
+    /* max-width: 2000px; /* 幅の上限 
+    min-width: 1500px; */ 
 }
 
 header {
@@ -11,9 +14,20 @@ header {
     position: fixed;
     height: 850px;
     background-color: aqua;
-
 }
 
+.buruburu {
+    display: inline-block;
+    animation: hurueru .1s  infinite;
+}
+
+@keyframes hurueru {
+    0% {transform: translate(0px, 0px) rotateZ(0deg)}
+    25% {transform: translate(5px, 5px) rotateZ(10deg)}
+    50% {transform: translate(0px, 8px) rotateZ(0deg)}
+    75% {transform: translate(5px, 0px) rotateZ(-10deg)}
+    100% {transform: translate(0px, 0px) rotateZ(0deg)}
+}
 
 .index {
     width: 120px;
@@ -35,11 +49,17 @@ header {
 }
 
 main {
-    width: 300px;
+    width: 300px; 
     display: flex;
     margin-left: 120px;
     flex-direction: column;
     background-color: blanchedalmond;
+    /* resize: horizontal; */
+    /* width: 90%; リキッド */
+    /* max-width: 500px; 幅の上限 */
+    /* min-width: 300px; 幅の下限 */
+   
+
 }
 
 sub {
@@ -51,7 +71,7 @@ sub {
     width: 190px;
     overflow: auto;
     padding: 0;
-    margin: 0;
+    margin-left: 5px;
 }
 
 .scroll2 {
@@ -59,9 +79,19 @@ sub {
     width: 100px;
     overflow: auto;
     padding: 0;
-    margin: 0;
+    margin-right: 5px;
 }
 
+
+tr {
+    background-color: rgba(245, 245, 220, 0.884);
+    display: block;
+    margin-bottom: 5px;
+    }
+
+.t2 tr{
+    width: 100px;
+}
 
 .scroll1::-webkit-scrollbar {
     display: none;
@@ -92,7 +122,7 @@ footer {
     width: 120px;
 }
 
-.sita{
+.sita {
     background-color: beige;
     height: 200px;
     width: 730px;
