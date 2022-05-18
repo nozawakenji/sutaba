@@ -1,6 +1,6 @@
 .retu {
     width: 1500px;
-    height: 960px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     border: 10px blue;
@@ -9,6 +9,9 @@
 header {
     width: 120px;
     position: fixed;
+    height: 850px;
+    background-color: aqua;
+
 }
 
 
@@ -22,13 +25,13 @@ header {
 .i {
     padding-top: 21px;
     padding-bottom: 20px;
-    background-color: aqua;
     padding-left: 20px;
 }
 
 .s {
     display: grid;
-    grid-template-columns: 200px 100px;
+    grid-template-columns: 170px 124px;
+    justify-content: space-between;
 }
 
 main {
@@ -44,7 +47,7 @@ sub {
 }
 
 .scroll1 {
-    height: 900px;
+    height: 650px;
     width: 190px;
     overflow: auto;
     padding: 0;
@@ -52,7 +55,7 @@ sub {
 }
 
 .scroll2 {
-    height: 900px;
+    height: 650px;
     width: 100px;
     overflow: auto;
     padding: 0;
@@ -78,7 +81,7 @@ sub {
 }
 
 .colona {
-    height: 100px;
+    height: 140px;
     background-color: antiquewhite;
 }
 
@@ -87,4 +90,11 @@ sub {
 footer {
     background-color: rgb(194, 194, 252);
     width: 120px;
+}
+
+.sita{
+    background-color: beige;
+    height: 200px;
+    width: 730px;
+    margin-left: 120px;
 }
