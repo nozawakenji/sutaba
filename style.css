@@ -91,6 +91,7 @@ tr {
 
 .t2 tr{
     width: 100px;
+    word-break:break-all;
 }
 
 .scroll1::-webkit-scrollbar {
